@@ -4,7 +4,7 @@
   "description": "Create NxM pixel matrix from a given char - in different sizes.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo OK"
+    "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/motzke/node-character-pixelizer/issues"
   },
-  "homepage": "https://github.com/motzke/node-character-pixelizer#readme"
+  "homepage": "https://github.com/motzke/node-character-pixelizer#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
 }
