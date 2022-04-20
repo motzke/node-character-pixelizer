@@ -1,0 +1,25 @@
+{
+  "name": "character-pixelizer",
+  "version": "1.0.0",
+  "description": "Create NxM pixel matrix from a given char - in different sizes.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo OK"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motzke/node-character-pixelizer.git"
+  },
+  "keywords": [
+    "matrix",
+    "led",
+    "pixel",
+    "character"
+  ],
+  "author": "Matthias Motzke <matthias@m0tz.de>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/motzke/node-character-pixelizer/issues"
+  },
+  "homepage": "https://github.com/motzke/node-character-pixelizer#readme"
+}
