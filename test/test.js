@@ -2,7 +2,7 @@
 const ASSERT = require("assert")
 const PIXELIZER = require("../lib/index");
 
-describe("Check if all characters, numbers and punctiuation is there", () => {
+describe("Check if all characters, numbers and punctiuation are there", () => {
   for (let size of PIXELIZER.sizes) {
     let allChars = Object.assign([], PIXELIZER.allChars);
     let currentPIXELS = PIXELIZER[size];
